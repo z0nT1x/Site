@@ -755,11 +755,18 @@ section {
   }
 
 
-  #commercial table, #commercial table th, #commercial table td{
+  #commercial table{
     padding-left: 0vw;
 	padding-right: 0vw;
 	font-size: 1vw;
     width: 60%;
+	border-collapse: collapse;
+	word-wrap: break-word;
+  }
+  #commercial table th, #commercial table td{
+	padding-left: 0vw;
+	padding-right: 0vw;
+	font-size: 1vw;
 	border-collapse: collapse;
 	word-wrap: break-word;
   }
