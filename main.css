@@ -761,7 +761,7 @@ section {
   #commercial table {
     padding: 1vw;
     font-size: 1.4vh;
-    width: 80vw;
+    width: 60%;
 	border-collapse: collapse;
 	word-wrap: break-word;
   }
