@@ -755,6 +755,8 @@ section {
     padding: 1vw;
     font-size: 1.4vh;
     width: 80vw;
+	border-collapse: collapse;
+	word-wrap: break-word;
   }
 
   #buttons{
