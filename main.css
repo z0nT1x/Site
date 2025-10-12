@@ -223,6 +223,10 @@ nav img{
   padding: 30px 0px 10px 0px;
 }
 
+#commercial .table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 
 
 #commercial table{
@@ -231,7 +235,10 @@ nav img{
   max-width: 1300px;
   border-color: white;
   border-collapse: collapse;
+  min-width: 500px;
 }
+
+
 
 #commercial table th {
 
