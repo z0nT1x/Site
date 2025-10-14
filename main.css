@@ -223,10 +223,7 @@ nav img{
   padding: 30px 0px 10px 0px;
 }
 
-#commercial .table-wrapper {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
+
 
 
 #commercial table{
@@ -235,7 +232,7 @@ nav img{
   max-width: 1300px;
   border-color: white;
   border-collapse: collapse;
-  min-width: 500px;
+  min-width: 300px;
 }
 
 
@@ -745,10 +742,29 @@ section {
     width: 60%;
   }
 
+<<<<<<< HEAD
   #commercial table {
     padding: 1vw;
     font-size: 1.4vh;
     width: 80vw;
+=======
+  #commercial > div:first-of-type > div p:not(.subtitle) {
+    font-size: 1.6vh;
+    text-align: center;
+  }
+
+
+  #commercial table{
+    padding-left: 0vw;
+	padding-right: 0vw;
+	font-size: 2vh;
+	border-collapse: collapse;
+	word-wrap: break-word;
+  }
+  #commercial table th, #commercial table td{
+	padding-left: 0vw;
+	padding-right: 0vw;
+>>>>>>> c3a9d10835183bc8cb03963234ddbf039b15f305
 	border-collapse: collapse;
 	word-wrap: break-word;
   }
