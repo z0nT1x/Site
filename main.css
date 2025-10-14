@@ -283,7 +283,7 @@ nav img{
 #buttons {
   display: flex;
   justify-content: center; 
-
+  flex-direction: row;
   height: auto;   
   margin: 0px auto 0px auto;
 }
@@ -327,11 +327,21 @@ nav img{
 }
 
 #partners div img {
-  height: 12vh;
+  height: 8vh;
   width: auto;
   padding: 1vh;
 
 }
+
+#partners div img.partner1{
+  height: 7vh;
+}
+#partners div img.partner3
+{
+  height: 6.2vh;
+  width: auto;
+}
+
 
 #partners h3{
   font-size: 24px;
@@ -485,6 +495,9 @@ section {
 #contacts {
   padding-bottom: 30px;
 }
+#fp a{
+  color: white;
+}
 
 
 
@@ -636,9 +649,13 @@ section {
 
   .burger {
     display: block;
+    width: 10vw;
+    height: auto;
   }
   .burger img {
     display: block;
+    width: 5vw;
+    height: auto;
   }
 
   .menu-toggle:checked ~ .menu {
@@ -663,7 +680,7 @@ section {
   }
 
   #promo div h1 {
-    font-size: 4vw;
+    font-size: 6vw;
     padding: 1,43vw;
   }
 
@@ -678,7 +695,7 @@ section {
   }
 
   #aboutUs h2 {
-    font-size: 3.5vw;
+    font-size: 5vw;
     padding-top: 6vh;
     padding-bottom: 3vh;
     text-align: center;
@@ -713,50 +730,20 @@ section {
   }
 
   #commercial h2 {
-    font-size: 3.5vw;
+    font-size: 5vw;
     padding-top: 6vh;
     text-align: center;
   }
 
-  #commercial > div:first-of-type {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    gap: 1vw;
-    padding-bottom: 2vh;
-  }
-
-  #commercial > div:first-of-type > div {
-    flex: 0 0 48%;
-    width: 40vw;
-    scroll-snap-align: start;
+  #commercial div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    padding: 2vw;
-    background-color: #111;
-    border-radius: 2wh;
-    box-sizing: border-box;
-  }             
-
-  #commercial > div:first-of-type > div img {
-    width: 8vw;
-    height: auto;
-    margin-bottom: 1vh;
   }
 
-  #commercial > div:first-of-type > div p.subtitle {
-    font-size: 2vh;
-    padding: 1.5vh 0 1vh 0;
+  #commercial div div{
+    width: 60%;
   }
-
-  #commercial > div:first-of-type > div p:not(.subtitle) {
-    font-size: 1.6vh;
-    text-align: center;
-  }
-
 
   #commercial table {
     padding: 1vw;
@@ -766,7 +753,8 @@ section {
 	word-wrap: break-word;
   }
 
-  #buttons{
+  #commercial #buttons{
+    display: flex;
     flex-direction: row;
     flex: 1, 1;
   }
@@ -786,7 +774,7 @@ section {
   }
 
   #partners h2 {
-    font-size: 3.5vw;
+    font-size: 5vw;
     padding-top: 6vh;
     text-align: center;
   }
@@ -796,8 +784,11 @@ section {
     align-items: center;
   }
 
-  #partners div img {
-    width: 75vw;
+  #partners div img, 
+  #partners div img.partner1,
+  #partners div img.partner3 
+  {
+    width:50%;
     height: auto;
     
   }
