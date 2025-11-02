@@ -660,6 +660,7 @@ section {
     justify-content: space-between; 
   }
 
+
   .menu {
     display: none; 
   }
@@ -668,6 +669,8 @@ section {
     margin: 0.7vw;
     font-size: 2vw;
   }
+
+
 
   .burger {
     display: block;
@@ -695,6 +698,11 @@ section {
     flex-direction: column;
     gap: 3vh;
     padding-top: 12vh;
+    background-color: black;
+  }
+
+  #promo video {
+    display: none; 
   }
 
   #promo div {
